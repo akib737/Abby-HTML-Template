@@ -1,0 +1,95 @@
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+  .blog-text {
+    padding: 20px 0 0 20px;
+  }
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+  /* COMMON CSS START */
+  .related-posts-title,
+  .testimonial-title,
+  .comment-title,
+  .latest-posts-title,
+  .tag-title {
+    font-size: 25px;
+  }
+  /* TRAVEL CONTENT */
+  .blog-text {
+    padding: 20px 5px 0 20px;
+  }
+  /* SIDEBAR LATEST POSTS START */
+  .card-title {
+    font-size: 15px;
+  }
+  /* RELATED POSTS START */
+  .h5.posts-title.text-capitalize {
+    font-size: 14px;
+  }
+  /* COMMENT AREA START */
+  input,
+  textarea {
+    width: 100%;
+    height: 38px;
+  }
+  textarea {
+    height: 100px;
+  }
+  .comment-btn {
+    padding: 7px 12px;
+    font-size: 12px;
+  }
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+  /* TRAVEL CONTENT */
+  .blog-text {
+    padding: 20px 5px 0 20px;
+  }
+  /* SIDEBAR LATEST POSTS */
+  .latest-posts-title {
+    font-size: 27px;
+  }
+  /* COMMENT AREA START */
+  input,
+  textarea {
+    width: 100%;
+    height: 38px;
+  }
+  textarea {
+    height: 100px;
+  }
+  .comment-btn {
+    padding: 7px 12px;
+    font-size: 12px;
+  }
+}
+
+/* X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  /* TRAVEL CONTENT */
+  .blog-text {
+    padding: 20px 5px 0 20px;
+  }
+  /* COMMENT AREA START */
+  input,
+  textarea {
+    width: 100%;
+    height: 38px;
+  }
+  textarea {
+    height: 100px;
+  }
+  .comment-btn {
+    padding: 7px 12px;
+    font-size: 12px;
+  }
+  /***************************
+      CONTACT PAGE START
+  ***************************/
+  .address-info {
+    margin-left: 2px;
+  }
+}
